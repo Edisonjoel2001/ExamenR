@@ -199,7 +199,7 @@ class Aplicacion:
         tk.Button(frame, text="Mostrar Alumnos", font=("Times New Roman", 14), bg="#4CAF50", fg="white", command=self.gestion.mostrar_alumnos).pack(fill="x", pady=5)
         tk.Button(frame, text="Mostrar Aprobados", font=("Times New Roman", 14), bg="#2196F3", fg="white", command=self.gestion.mostrar_aprobados).pack(fill="x", pady=5)
         tk.Button(frame, text="Mostrar Suspensos", font=("Times New Roman", 14), bg="#FF5722", fg="white", command=self.gestion.mostrar_suspensos).pack(fill="x", pady=5)
-        tk.Button(frame, text="Mostrar Candidatos a Matrícula de Honor", font=("Times New Roman", 14), bg="#9C27B0", fg="white", command=self.gestion.mostrar_candidatos_mh).pack(fill="x", pady=5)
+        tk.Button(frame, text="Candidatos a Matrícula de Honor", font=("Times New Roman", 14), bg="#9C27B0", fg="white", command=self.gestion.mostrar_candidatos_mh).pack(fill="x", pady=5)
         tk.Button(frame, text="Salir", font=("Times New Roman", 14), bg="#f44336", fg="white", command=root.quit).pack(fill="x", pady=10)
 
 
